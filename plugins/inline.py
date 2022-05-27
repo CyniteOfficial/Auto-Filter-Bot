@@ -93,7 +93,7 @@ def get_reply_markup(query):
         [
             InlineKeyboardButton('♻️ 𝗦𝗲𝗮𝗿𝗰𝗵 𝗔𝗴𝗮𝗶𝗻 ♻️', switch_inline_query_current_chat=query)
         ],[
-            InlineKeyboardButton('♥️ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ♥️', url='https://t.me/CYNITEBOTS')
+            InlineKeyboardButton('♥️𝗖𝗵𝗮𝗻𝗻𝗲𝗹♥️', url='https://t.me/CYNITEBOTS')
         ],[
             InlineKeyboardButton('🥳 υѕє ιи α gяουρ 👥', url='http://t.me/ZsearcherBot?startgroup=true')
         ]
