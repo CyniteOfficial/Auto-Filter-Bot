@@ -37,8 +37,8 @@ async def start(client, message):
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/CyniteBots')     
-            InlineKeyboardButton('♻️ HELP ♻️', callback_data='help')
-            InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ HELP ♻️', callback_data='help'), 
+            InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about'), 
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''), ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -76,8 +76,8 @@ async def start(client, message):
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/CyniteBots')     
-            InlineKeyboardButton('♻️ HELP ♻️', callback_data='help')
-            InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ HELP ♻️', callback_data='help'), 
+            InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about'), 
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''), ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
