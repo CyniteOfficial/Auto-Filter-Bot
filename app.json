@@ -1,5 +1,5 @@
 {
-    "name": "ᗩᒍᗩ᙭",
+    "name": "Zsearcher",
     "description": "This Bot Will Help You To Store Files In Cloud Storage. You Can Add Files To The Bot By Forward the last file from a public channel to your bot and Press Yes Button.. If The Files Channl Is Private Make the bot admin on the channel and forward the last file to bot. Then Add the bot to you group and send the movie name The Bot Will Give the file in Bot PM..✮✮",
     "logo": "https://telegra.ph/file/1b837a8df2670b0097aaf.jpg",
     "stack": "container",
@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Aadhi000/Ajax",
-    "repository": "https://github.com/Aadhi000/Ajax",
+    "website": "https://github.com/CyniteOfficial",
+    "repository": "https://github.com/CyniteOfficial/Zsearcher",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -32,11 +32,11 @@
             "required": true
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "description": "Get this value from @IDinformationbot. Separate multiple IDs by space.",
             "required": false
         },
         "ADMINS": {
-            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "description": "Get this value from @IDinformationbot. Separate multiple Admins by space.",
             "required": true
         },
         "PICS": {
