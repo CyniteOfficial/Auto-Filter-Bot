@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Zsearcher
 fi
-cd /Ajax
+cd /Zsearcher
 pip3 install -U -r requirements.txt
 echo "Starting Zsearcherbot....🔥"
 python3 bot.py
