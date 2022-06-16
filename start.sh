@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/CyniteOfficial/Zsearcher /Ajax
+  git clone https://github.com/CyniteOfficial/Auto-Filter-Bot /Ajax
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Zsearcher
