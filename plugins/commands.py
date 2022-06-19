@@ -41,7 +41,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'), 
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''), ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_video(
+        await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
@@ -80,7 +80,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'), 
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''), ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_video(
+        await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
