@@ -2,7 +2,7 @@
   <img src="assets/Zsearcher.png" alt="Technical Cynite">
 </p>
 <h1 align="center">
-  <b>[This Repo Is Not Working Please Use This One](https://github.com/CyniteOfficial/Auto-Filter) /b>
+  <b>[This Repo Is Not Working Please Use This One](https://github.com/CyniteOfficial/Auto-Filter)
 </h1>
 <a href="https://youtube.com/channel/UCiaz-J50QhtJ73XEEjP_aLQ">
   <img src="https://img.shields.io/badge/𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴-red?logo=youtube" width="150">
